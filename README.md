@@ -97,7 +97,7 @@ dtype: object
 Some of the data values in the columns were stored as strings with commas (e.g., 3,000 instead of 3000), hence, data preprocessing measures were undertaken to correct for these errors.
 
 Next, the rates of incidents for both the vaccinated and unvaccinated groups were calculated as follows:
-```
+```python
 # Add Vaccinated column
 df['Vaccinated'] = df['Population Vaccinated'] + df['Population Boosted']
 # Calculate rates  
