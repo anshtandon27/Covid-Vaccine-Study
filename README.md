@@ -157,3 +157,33 @@ plt.savefig("Hospitalization_Rates_by_Vaccination_Status.png")
 plt.show()
 ```
 ![Hospitalization Rates by Vaccination Status](Hospitalization_Rates_by_Vaccination_Status.png)
+
+## Results
+```mdx
+```python
+print(df['Unvax Rate'].describe())
+print(df['Vax Rate'].describe())
+```
+
+```
+count    96.000000
+mean      0.000477
+std       0.000683
+min       0.000000
+25%       0.000131
+50%       0.000297
+75%       0.000444
+max       0.003878
+Name: Unvax Rate, dtype: float64
+
+
+count    96.000000
+mean      0.000188
+std       0.000178
+min       0.000014
+25%       0.000077
+50%       0.000157
+75%       0.000221
+max       0.001134
+Name: Vax Rate, dtype: float64
+```
