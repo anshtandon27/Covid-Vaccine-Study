@@ -144,3 +144,16 @@ plt.savefig("Covid_Hospitalization_Rates.png")
 plt.show()
 ```
 ![Covid Hospitalization Rates](Covid_Hospitalization_Rates.png)
+
+```python
+# Set figure size
+plt.figure(figsize=(20, 10)) 
+
+# Boxplot
+plt.boxplot([y1, y2], labels=['Unvaccinated', 'Vaccinated'])
+plt.ylabel('Hospitalization Rate')
+plt.title('Hospitalization Rates by Vaccination Status')
+plt.savefig("Hospitalization_Rates_by_Vaccination_Status.png")
+plt.show()
+```
+![Hospitalization Rates by Vaccination Status](Hospitalization_Rates_by_Vaccination_Status.png)
