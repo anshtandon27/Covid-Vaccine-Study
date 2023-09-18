@@ -143,4 +143,4 @@ plt.legend()
 plt.savefig("Covid_Hospitalization_Rates.png")
 plt.show()
 ```
-![Covid Hospitalization Rates](/Users/anshtandon/Desktop/Covid_Hospitalization_Rates.png)
+![Covid Hospitalization Rates](Covid_Hospitalization_Rates.png)
