@@ -19,6 +19,13 @@ Randomized Controlled Trial (RCT): Conduct a randomized study where individuals 
 - Immune System Response: Variations in immune response to the vaccine may play a role in outcomes.
 - Household Composition: Living with young children or elderly individuals could affect flu exposure and transmission.
 
+## Considering Colliders:
+
+In the context of our flu vaccine study, the potential collider identified is:
+
+Influenza Testing Rates
+This variable is influenced by both the exposure and the outcome. Individuals who receive the flu vaccine might be more likely to get tested for the flu if they experience flu-like symptoms, thinking they are protected. On the other hand, unvaccinated individuals who develop flu-like symptoms might not get tested as frequently because they may attribute their symptoms to a common cold.
+
 ## How this causal question can drive policy changes:
 
 In the case of our flu vaccine study, if it demonstrates a significant reduction in hospitalizations among vaccinated individuals, it could have several policy implications:
