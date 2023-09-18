@@ -8,11 +8,11 @@ Does receiving the COVID-19 vaccine reduce the likelihood of hospitalisation due
 - Vaccination History: Previous COVID vaccinations could influence the effectiveness of the current vaccine.
 - Access to Healthcare: Socioeconomic status and access to healthcare facilities may affect both vaccination rates and the likelihood of hospitalisation.
 - Comorbidities: The presence of other health conditions (e.g., heart disease, diabetes) can increase the risk of severe complications from COVID-19.
-- Behavioural Factors: Hygiene practices, travel habits, and exposure to crowded places can influence COVID transmission and severity.
+- Behavioural Factors: Hygiene practices, travel habits, and exposure to crowded places can influence COVID-19 transmission and severity.
 - Geographical Location: The prevalence of the COVID-19 virus can vary by region and impact infection rates.
 
 Correction Strategy:
-Randomised Controlled Trial (RCT): Conduct a randomised study where individuals are randomly assigned to receive the COVID vaccine or a placebo. This can help control for known and unknown confounders.
+Randomised Controlled Trial (RCT): Conduct a randomised study where individuals are randomly assigned to receive the COVID-19 vaccine or a placebo. This can help control for known and unknown confounders.
 
 ## Unmeasured Confounders:
 - Genetic Predispositions: Certain genetic factors may affect an individual's susceptibility to COVID-19 and its severity.
@@ -25,7 +25,7 @@ In the context of our COVID vaccine study, the potential collider identified is:
 
 COVID Testing Rates*
 
-This variable is influenced by both the exposure and the outcome. Individuals who receive the COVID-19 vaccine might be more likely to get tested for COVID if they experience COVID-like symptoms, thinking they are protected. On the other hand, unvaccinated individuals who develop COVID-like symptoms might not get tested as frequently because they may attribute their symptoms to a common cold.
+This variable is influenced by both the exposure and the outcome. Individuals who receive the COVID-19 vaccine might be more likely to get tested for COVID-19 if they experience COVID-like symptoms, thinking they are protected. On the other hand, unvaccinated individuals who develop COVID-like symptoms might not get tested as frequently because they may attribute their symptoms to a common cold.
 
 ## How this causal question can drive policy changes:
 
