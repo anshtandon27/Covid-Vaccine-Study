@@ -94,4 +94,5 @@ Outcome Vaccinated           int64
 Outcome Boosted            float64
 dtype: object
 ```
+Some of the data values in the columns were stored as strings with commas (e.g., 3,000 instead of 3000), hence, data preprocessing measures were undertaken to correct for these errors.
 
