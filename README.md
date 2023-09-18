@@ -140,5 +140,7 @@ plt.title('Covid Hospitalization Rates')
 plt.xlabel('Week Ending')
 plt.ylabel('Rate')
 plt.legend()
+plt.savefig("Covid Hospitalization Rates.png")
 plt.show()
 ```
+![Covid Hospitalization Rates](/Users/anshtandon/Desktop/Covid Hospitalization Rates.png)
