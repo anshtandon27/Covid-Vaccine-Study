@@ -122,3 +122,23 @@ else:
 P-value: 8.615839793189472e-05
 Vaccinated group has significantly lower hospitalization rate
 ```
+
+## Visualisation
+```python
+# Convert columns to arrays 
+x = np.array(df['Week End'])
+y1 = np.array(df['Unvax Rate'])
+y2 = np.array(df['Vax Rate'])
+
+# Set figure size
+plt.figure(figsize=(20, 6)) 
+
+# Plot rates 
+plt.plot(x, y1, label='Unvaccinated')
+plt.plot(x, y2, label='Vaccinated')
+plt.title('Covid Hospitalization Rates')
+plt.xlabel('Week Ending')
+plt.ylabel('Rate')
+plt.legend()
+plt.show()
+```
