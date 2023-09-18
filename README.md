@@ -1,7 +1,7 @@
 # Covid-Vaccine-Study
 
 ## Causal Question:
-Does receiving the covid vaccine reduce the likelihood of hospitalization due to flu-related complications in adults aged 65 and older?
+Does receiving the covid vaccine reduce the likelihood of hospitalization due to covid-related complications in adults aged 65 and older?
 
 ## Considering Confounders:
 - Age and Health Status: The general health of an individual and their age can significantly impact their susceptibility to covid and the likelihood of hospitalization.
