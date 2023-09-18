@@ -53,3 +53,45 @@ Real-world evidence is critical to evaluate COVID-19 vaccine effectiveness again
 - Updates were made weekly by amalgamating new COVID-19 outcomes and vaccination numbers across the population.
 - Analysis was limited to adults aged 65–79 years due to their priority for early COVID-19 vaccination.
 - All metrics were stratified by age group and vaccination status for the comparative analysis.
+
+
+## Data Analysis
+```mdx
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+import numpy as np
+
+df = pd.read_csv('COVID-19_Outcomes_by_Vaccination_Status_-_No_All_Age_Group.csv')
+
+# Drop rows with missing values
+df.dropna(inplace=True)
+
+print(df.dtypes)
+
+# Columns that need commas removed  
+cols = ['Population Unvaccinated', 'Population Vaccinated', 'Population Boosted']
+
+# Remove commas
+for col in cols:
+    df[col] = df[col].str.replace(',','')
+
+# Convert to integers
+for col in cols:
+    df[col] = df[col].astype(int)
+```
+
+```
+Outcome                     object
+Week End                    object
+Age Group                   object
+Population Unvaccinated     object
+Population Vaccinated       object
+Population Boosted          object
+Outcome Unvaccinated         int64
+Outcome Vaccinated           int64
+Outcome Boosted            float64
+dtype: object
+```
+```
