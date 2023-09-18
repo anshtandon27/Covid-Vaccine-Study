@@ -13,3 +13,9 @@ Does receiving the flu vaccine reduce the likelihood of hospitalization due to f
 
 Correction Strategy:
 Randomized Controlled Trial (RCT): Conduct a randomized study where individuals are randomly assigned to receive the flu vaccine or a placebo. This can help control for known and unknown confounders.
+
+## Unmeasured Confounders:
+- Genetic Predispositions: Certain genetic factors may affect an individual's susceptibility to the flu and its severity.
+- Immune System Response: Variations in immune response to the vaccine may play a role in outcomes.
+- Household Composition: Living with young children or elderly individuals could affect flu exposure and transmission.
+
