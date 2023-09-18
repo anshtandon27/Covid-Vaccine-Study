@@ -105,4 +105,20 @@ df['Unvax Rate'] = df['Outcome Unvaccinated'] / df['Population Unvaccinated']
 df['Vax Rate'] = (df['Outcome Vaccinated'] + df['Outcome Boosted']) / df['Vaccinated'] 
 ```
 
+## Statistical Test
+```mdx
+```python
+# Statistical test
+tstat, pval = stats.ttest_ind(df['Unvax Rate'], df['Vax Rate'])
+print("P-value:", pval)
 
+if pval < 0.05:
+    print('Vaccinated group has significantly lower hospitalization rate')
+else:
+    print('No significant difference in hospitalization rates')
+```
+
+```
+P-value: 8.615839793189472e-05
+Vaccinated group has significantly lower hospitalization rate
+```
