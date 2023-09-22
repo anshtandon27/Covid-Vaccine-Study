@@ -23,7 +23,7 @@ Randomised Controlled Trial (RCT): Conduct a randomised study where individuals 
 
 In the context of our COVID vaccine study, the potential collider identified is:
 
-COVID Testing Rates*
+*COVID Testing Rates*
 
 This variable is influenced by both the exposure and the outcome. Individuals who receive the COVID-19 vaccine might be more likely to get tested for COVID-19 if they experience COVID-like symptoms, thinking they are protected. On the other hand, unvaccinated individuals who develop COVID-like symptoms might not get tested as frequently because they may attribute their symptoms to a common cold.
 
